@@ -1,0 +1,231 @@
+.pfp {
+  width: 145px;
+  border-radius: 75px;
+  float: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 150px;
+}
+.hi {
+  line-height: -5px;
+  padding-top: 10px;
+  margin: 0px;
+}
+
+.div {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+.projectimg img {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+.caption {
+  display: block;
+}
+
+.username {
+  text-align: center;
+  line-height: 20px;
+  padding: 0;
+  margin: 0px;
+  font-size: 50px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  /* font-family: auto; */
+  font: revert;
+  font-weight: initial;
+  font-family: system-ui;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.pixel {
+  text-align: center;
+}
+
+h2 {
+  text-align: center; 
+}
+
+.code {
+  color: black;
+  align-items: right;
+  background-color: aliceblue;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 99vh;
+  height: 100%;
+  background-color: rgb(30, 33, 34);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border: grey 5px;
+  border-style: solid;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 2cm;
+  font-size: 100px;
+  border-radius: 25%;
+}
+
+.projects {
+  border-radius: 25%;
+  display: block;
+}
+.caption {
+  text-align: justify;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.row2 {
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  float: left;
+}
+
+.proj {
+  display: flex;
+  flex-direction: column;
+  margin-top: 500px;
+  flex: 0 0 50%;
+  text-align: center;
+  justify-content: center;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* unvisited link */
+a:link {
+  color: gray;
+}
+
+/* visited link */
+a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+a:hover {
+  color: beige;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  justify-content: space-evenly;
+  padding-right: 35px;
+}
+
+
+@media (max-width: 600px) {
+  .username {
+    text-align: center;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 0;
+    margin: 0px;
+    font-size: 50px;
+    color: white;
+  }
+
+  .inner_footer .logo_container,
+  .inner_footer .footer_third {
+    margin-bottom: 30px;
+  }
+}
+
+.wrapper {
+  background: transparent;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-emphasis: bold;
+  margin-top: 10px;
+  
+}
+
+.contactheader {
+  background-color: darkcyan;
+}
+
+
+.matrix {
+  color: beige;
+  text-align: center;
+  margin-top: 80px;
+}
